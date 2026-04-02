@@ -195,3 +195,19 @@ ol {
   width: fit-content;
   gap: 5px;
 }
+
+input {
+  border: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.search-form__textfield::placeholder {
+  color: rgb(255 255 255 / 0.7);
+}
+
+.search-form__textfield {
+  background-color: transparent;
+  appearance: 0;
+}
