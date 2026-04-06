@@ -316,3 +316,6 @@ input {
   padding: 0 3px;
 }
 
+.result__video-container, .content__list-container {
+  position: relative;
+}
