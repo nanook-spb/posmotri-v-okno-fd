@@ -12,13 +12,14 @@ html {
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: #1b1919;
 }
 
 h1,
@@ -54,10 +55,15 @@ ol {
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 711px 399px;
+  display: flex;
   gap: 30px;
-  align-items: flex-end;
+  align-items: end;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .search-form {
@@ -80,7 +86,6 @@ ol {
 .result__video-container {
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
 }
 
 .result__video {
@@ -186,7 +191,7 @@ ol {
 }
 
 .search-form__fieldset {
-  border: 0;
+  border: none;
 }
 
 .search-form__label {
@@ -210,7 +215,7 @@ input {
 
 .search-form__textfield {
   background-color: transparent;
-  appearance: 0;
+  appearance: none;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
