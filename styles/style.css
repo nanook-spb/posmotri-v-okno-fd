@@ -208,19 +208,18 @@ ol {
   border-bottom: 1px solid #fff;
   color: #fff;
   inline-size: 225px;
-}
 
-.search-form__textfield::placeholder {
-  color: rgb(255 255 255 / 0.7);
-}
-
-.search-form__textfield {
   background-color: transparent;
   appearance: none;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
+
+.search-form__textfield::placeholder {
+  color: rgb(255 255 255 / 0.7);
+}
+
 
 .search-form__textfield:focus {
   outline: none;
